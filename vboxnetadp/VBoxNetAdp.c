@@ -1,10 +1,10 @@
-/* $Id: VBoxNetAdp.c 118839 2017-10-28 15:14:05Z bird $ */
+/* $Id: VBoxNetAdp.c 127855 2019-01-01 01:45:53Z bird $ */
 /** @file
  * VBoxNetAdp - Virtual Network Adapter Driver (Host), Common Code.
  */
 
 /*
- * Copyright (C) 2008-2017 Oracle Corporation
+ * Copyright (C) 2008-2019 Oracle Corporation
  *
  * This file is part of VirtualBox Open Source Edition (OSE), as
  * available from http://www.virtualbox.org. This file is free software;
@@ -119,7 +119,7 @@ int vboxNetAdpCreate(PVBOXNETADP *ppNew, const char *pcszName)
             {
                 Log(("vboxNetAdpCreate: using name: %s\n", pcszName));
                 pThis->iUnit = vboxNetAdpGetUnitByName(pcszName);
-                strncpy(pThis->szName, pcszName, sizeof(pThis->szName));
+                strncpy(pThis->szName, pcszName, sizeof(pThis->szName) - 1);
                 pThis->szName[sizeof(pThis->szName) - 1] = '\0';
             }
             else

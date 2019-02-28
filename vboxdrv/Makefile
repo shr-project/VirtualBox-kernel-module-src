@@ -1,10 +1,10 @@
-# $Id: Makefile 119168 2017-11-20 11:22:25Z bird $
+# $Id: Makefile 127855 2019-01-01 01:45:53Z bird $
 ## @file
 # Makefile for the VirtualBox Linux Host Driver.
 #
 
 #
-# Copyright (C) 2006-2017 Oracle Corporation
+# Copyright (C) 2006-2019 Oracle Corporation
 #
 # This file is part of VirtualBox Open Source Edition (OSE), as
 # available from http://www.virtualbox.org. This file is free software;
@@ -94,6 +94,7 @@ MOD_OBJS = \
 	common/string/RTStrNLen.o \
 	common/string/stringalloc.o \
 	common/string/strformat.o \
+	common/string/strformatnum.o \
 	common/string/strformatrt.o \
 	common/string/strformattype.o \
 	common/string/strprintf.o \

@@ -1,10 +1,10 @@
-/* $Id: memuserkernel-r0drv-linux.c 128226 2019-01-17 14:13:00Z michael $ */
+/* $Id: memuserkernel-r0drv-linux.c 128219 2019-01-17 13:53:59Z michael $ */
 /** @file
  * IPRT - User & Kernel Memory, Ring-0 Driver, Linux.
  */
 
 /*
- * Copyright (C) 2009-2017 Oracle Corporation
+ * Copyright (C) 2009-2019 Oracle Corporation
  *
  * This file is part of VirtualBox Open Source Edition (OSE), as
  * available from http://www.virtualbox.org. This file is free software;
@@ -32,7 +32,7 @@
 #include "internal/iprt.h"
 
 #include <iprt/mem.h>
-#include <iprt/err.h>
+#include <iprt/errcore.h>
 
 
 RTR0DECL(int) RTR0MemUserCopyFrom(void *pvDst, RTR3PTR R3PtrSrc, size_t cb)

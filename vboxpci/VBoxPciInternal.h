@@ -1,10 +1,10 @@
-/* $Id: VBoxPciInternal.h 118839 2017-10-28 15:14:05Z bird $ */
+/* $Id: VBoxPciInternal.h 127870 2019-01-01 04:34:11Z bird $ */
 /** @file
  * VBoxPci - PCI driver (Host), Internal Header.
  */
 
 /*
- * Copyright (C) 2011-2017 Oracle Corporation
+ * Copyright (C) 2011-2019 Oracle Corporation
  *
  * This file is part of VirtualBox Open Source Edition (OSE), as
  * available from http://www.virtualbox.org. This file is free software;
@@ -24,8 +24,11 @@
  * terms and conditions of either the GPL or the CDDL or both.
  */
 
-#ifndef ___VBoxPciInternal_h___
-#define ___VBoxPciInternal_h___
+#ifndef VBOX_INCLUDED_SRC_VBoxPci_VBoxPciInternal_h
+#define VBOX_INCLUDED_SRC_VBoxPci_VBoxPciInternal_h
+#ifndef RT_WITHOUT_PRAGMA_ONCE
+# pragma once
+#endif
 
 #include <VBox/sup.h>
 #include <VBox/rawpci.h>
@@ -197,4 +200,4 @@ DECLHIDDEN(int)  vboxPciOsDevPowerStateChange(PVBOXRAWPCIINS pIns, PCIRAWPOWERST
 
 RT_C_DECLS_END
 
-#endif
+#endif /* !VBOX_INCLUDED_SRC_VBoxPci_VBoxPciInternal_h */

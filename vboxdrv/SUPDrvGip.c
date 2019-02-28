@@ -1,10 +1,10 @@
-/* $Id: SUPDrvGip.cpp 126846 2018-11-22 10:18:40Z michael $ */
+/* $Id: SUPDrvGip.cpp 127855 2019-01-01 01:45:53Z bird $ */
 /** @file
  * VBoxDrv - The VirtualBox Support Driver - Common code for GIP.
  */
 
 /*
- * Copyright (C) 2006-2017 Oracle Corporation
+ * Copyright (C) 2006-2019 Oracle Corporation
  *
  * This file is part of VirtualBox Open Source Edition (OSE), as
  * available from http://www.virtualbox.org. This file is free software;

@@ -1,10 +1,10 @@
-/* $Id: timer-r0drv-linux.c 125570 2018-10-08 12:34:55Z michael $ */
+/* $Id: timer-r0drv-linux.c 127855 2019-01-01 01:45:53Z bird $ */
 /** @file
  * IPRT - Timers, Ring-0 Driver, Linux.
  */
 
 /*
- * Copyright (C) 2006-2018 Oracle Corporation
+ * Copyright (C) 2006-2019 Oracle Corporation
  *
  * This file is part of VirtualBox Open Source Edition (OSE), as
  * available from http://www.virtualbox.org. This file is free software;

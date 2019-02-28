@@ -1,10 +1,10 @@
-/* $Id: SUPR0IdcClient.c 118839 2017-10-28 15:14:05Z bird $ */
+/* $Id: SUPR0IdcClient.c 127855 2019-01-01 01:45:53Z bird $ */
 /** @file
  * VirtualBox Support Driver - IDC Client Lib, Core.
  */
 
 /*
- * Copyright (C) 2008-2017 Oracle Corporation
+ * Copyright (C) 2008-2019 Oracle Corporation
  *
  * This file is part of VirtualBox Open Source Edition (OSE), as
  * available from http://www.virtualbox.org. This file is free software;
@@ -29,7 +29,7 @@
 *   Header Files                                                                                                                 *
 *********************************************************************************************************************************/
 #include "SUPR0IdcClientInternal.h"
-#include <VBox/err.h>
+#include <iprt/errcore.h>
 #include <iprt/asm.h>
 
 

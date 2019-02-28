@@ -1,4 +1,4 @@
-/* $Id: intnetinline.h 125570 2018-10-08 12:34:55Z michael $ */
+/* $Id: intnetinline.h 127888 2019-01-01 06:31:29Z bird $ */
 /** @file
  * INTNET - Internal Networking, Inlined Code. (DEV,++)
  *
@@ -8,7 +8,7 @@
  */
 
 /*
- * Copyright (C) 2006-2017 Oracle Corporation
+ * Copyright (C) 2006-2019 Oracle Corporation
  *
  * This file is part of VirtualBox Open Source Edition (OSE), as
  * available from http://www.virtualbox.org. This file is free software;
@@ -28,8 +28,11 @@
  * terms and conditions of either the GPL or the CDDL or both.
  */
 
-#ifndef ___VBox_intnetinline_h
-#define ___VBox_intnetinline_h
+#ifndef VBOX_INCLUDED_intnetinline_h
+#define VBOX_INCLUDED_intnetinline_h
+#ifndef RT_WITHOUT_PRAGMA_ONCE
+# pragma once
+#endif
 
 #include <VBox/intnet.h>
 #include <iprt/string.h>
@@ -820,5 +823,5 @@ DECLINLINE(void) IntNetBufInit(PINTNETBUF pIntBuf, uint32_t cbBuf, uint32_t cbRe
 
 #endif /* __cplusplus */
 
-#endif
+#endif /* !VBOX_INCLUDED_intnetinline_h */
 

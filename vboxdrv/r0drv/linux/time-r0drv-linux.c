@@ -1,10 +1,10 @@
-/* $Id: time-r0drv-linux.c 126859 2018-11-22 14:09:32Z michael $ */
+/* $Id: time-r0drv-linux.c 127855 2019-01-01 01:45:53Z bird $ */
 /** @file
  * IPRT - Time, Ring-0 Driver, Linux.
  */
 
 /*
- * Copyright (C) 2006-2017 Oracle Corporation
+ * Copyright (C) 2006-2019 Oracle Corporation
  *
  * This file is part of VirtualBox Open Source Edition (OSE), as
  * available from http://www.virtualbox.org. This file is free software;

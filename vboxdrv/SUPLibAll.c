@@ -1,10 +1,10 @@
-/* $Id: SUPLibAll.cpp 118839 2017-10-28 15:14:05Z bird $ */
+/* $Id: SUPLibAll.cpp 127855 2019-01-01 01:45:53Z bird $ */
 /** @file
  * VirtualBox Support Library - All Contexts Code.
  */
 
 /*
- * Copyright (C) 2006-2017 Oracle Corporation
+ * Copyright (C) 2006-2019 Oracle Corporation
  *
  * This file is part of VirtualBox Open Source Edition (OSE), as
  * available from http://www.virtualbox.org. This file is free software;
@@ -39,6 +39,7 @@
 #if defined(RT_ARCH_AMD64) || defined(RT_ARCH_X86)
 # include <iprt/asm-amd64-x86.h>
 #endif
+#include <iprt/errcore.h>
 
 
 #if defined(RT_ARCH_AMD64) || defined(RT_ARCH_X86)
